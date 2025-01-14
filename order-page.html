@@ -1,9 +1,36 @@
 <html>
   <head>
     <title>Order Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  
   </head>
 
   <body>
+    <nav> 
+      <a href="./index.html">Home</a>
+    </nav> 
+    
+    <main>
+      
+      <form>
+        <input placeholder="Type of Taco Shell" />
+          <select name="topping-1" id="topping-1">
+            <option value="lettuce">Lettuce</option>
+            <option value="tomato">Tomato</option>
+            <option value="guacamole">Guacamole</option>
+          </select>
+        <input placeholder="Topping 2" />
+        <input placeholder="Topping 3" />
+        <input placeholder="Email" type="email"/>
 
+        <section>
+          <label>Date of Delivery: </label><input type="date" />
+        </section>
+          
+        
+          <button>Submit Order</button>
+      </form>
+
+    </main>
   </body>
 </html>
